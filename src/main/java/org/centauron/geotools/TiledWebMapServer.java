@@ -172,6 +172,7 @@ public class TiledWebMapServer extends WebMapServer {
 		throw new Exception("blubb");
 	}
 	
+	
 	private static TileEnvelope getEnvelopeFromBBoxAndSrs(String bbox,String srs,String w,String h) {
 		String splitted_bbox[]=bbox.split(",");
 		double[] numeric_bbox=new double[splitted_bbox.length];
